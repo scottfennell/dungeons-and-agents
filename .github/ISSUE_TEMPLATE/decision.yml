@@ -1,0 +1,37 @@
+name: Direction needed
+description: A material product or architecture decision for Scott
+title: "Decision: "
+labels:
+  - decision:needed
+body:
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why direction is required
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommended option
+      description: Put the recommendation first and state its main tradeoff.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: One concrete question
+    validations:
+      required: true
+  - type: textarea
+    id: waiting
+    attributes:
+      label: What remains blocked
+    validations:
+      required: true

@@ -1,0 +1,41 @@
+name: Bounded implementation
+description: A small, testable unit of authorized work
+title: ""
+labels: []
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What observable result should exist?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What files or subsystem may change, and what is excluded?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Provide a testable checklist.
+      value: "- [ ] "
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: Required tests and commands.
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Applicable authority
+      description: Link PRD sections and accepted ADRs.
+    validations:
+      required: true
